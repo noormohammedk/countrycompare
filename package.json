@@ -1,0 +1,26 @@
+{
+  "name": "countrycompare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path css/src css/src/main.scss css/main.css",
+    "serve": "lite-server --open chrome",
+    "start": "npm run sass && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noormohammedk/countrycompare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noormohammedk/countrycompare/issues"
+  },
+  "homepage": "https://github.com/noormohammedk/countrycompare#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "node-sass": "^3.13.0",
+    "nodemon": "^1.11.0"
+  }
+}
